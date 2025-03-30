@@ -1,0 +1,19 @@
+generator client {
+  provider             = "prisma-client-py"
+  recursive_type_depth = 5
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  directUrl = env("DATABASE_URL")
+}
+
+model Image {
+  id              String   @id @default(uuid())
+  originalName    String
+  originalImage   String   // Base64 encoded original image
+  colorizedImage  String   // Base64 encoded colorized image
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+} 

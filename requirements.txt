@@ -1,0 +1,14 @@
+fastapi==0.109.2
+uvicorn==0.27.1
+python-multipart==0.0.9
+numpy==1.26.4
+opencv-python==4.9.0.80
+python-jose==3.3.0
+pydantic==2.6.1
+Pillow==10.2.0
+uvloop==0.19.0
+h11==0.14.0
+prisma==0.13.0
+python-dotenv==1.0.1
+psycopg2-binary==2.9.9
+gunicorn==21.2.0 
