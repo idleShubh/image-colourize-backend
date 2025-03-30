@@ -1,10 +1,10 @@
 # Model files
-model/colorization_release_v2.caffemodel
-model/colorization_deploy_v2.prototxt
-model/pts_in_hull.npy
-model/*.caffemodel
-model/*.prototxt
-model/*.npy
+# model/colorization_release_v2.caffemodel
+# model/colorization_deploy_v2.prototxt
+# model/pts_in_hull.npy
+# model/*.caffemodel
+# model/*.prototxt
+# model/*.npy
 
 # Python
 __pycache__/
